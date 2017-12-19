@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107F7FBB1BB84E0700185476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F7FBA1BB84E0700185476 /* AppDelegate.swift */; };
+		107F7FBD1BB84E0700185476 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F7FBC1BB84E0700185476 /* MasterViewController.swift */; };
+		107F7FBF1BB84E0700185476 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F7FBE1BB84E0700185476 /* DetailViewController.swift */; };
+		107F7FC21BB84E0800185476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107F7FC01BB84E0800185476 /* Main.storyboard */; };
+		107F7FC41BB84E0800185476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107F7FC31BB84E0800185476 /* Assets.xcassets */; };
+		107F7FC71BB84E0800185476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107F7FC51BB84E0800185476 /* LaunchScreen.storyboard */; };
+		107F7FD21BB84E0800185476 /* Happy_Billionth_SecondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F7FD11BB84E0800185476 /* Happy_Billionth_SecondTests.swift */; };
+		107F7FDD1BB84E0800185476 /* Happy_Billionth_SecondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F7FDC1BB84E0800185476 /* Happy_Billionth_SecondUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		107F7FCE1BB84E0800185476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107F7FAF1BB84E0700185476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107F7FB61BB84E0700185476;
+			remoteInfo = "Happy Billionth Second";
+		};
+		107F7FD91BB84E0800185476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107F7FAF1BB84E0700185476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107F7FB61BB84E0700185476;
+			remoteInfo = "Happy Billionth Second";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107F7FB71BB84E0700185476 /* Happy Billionth Second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Billionth Second.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107F7FBA1BB84E0700185476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		107F7FBC1BB84E0700185476 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		107F7FBE1BB84E0700185476 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		107F7FC11BB84E0800185476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		107F7FC31BB84E0800185476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		107F7FC61BB84E0800185476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		107F7FC81BB84E0800185476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107F7FCD1BB84E0800185476 /* Happy Billionth SecondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy Billionth SecondTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107F7FD11BB84E0800185476 /* Happy_Billionth_SecondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_Billionth_SecondTests.swift; sourceTree = "<group>"; };
+		107F7FD31BB84E0800185476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107F7FD81BB84E0800185476 /* Happy Billionth SecondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy Billionth SecondUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107F7FDC1BB84E0800185476 /* Happy_Billionth_SecondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_Billionth_SecondUITests.swift; sourceTree = "<group>"; };
+		107F7FDE1BB84E0800185476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107F7FB41BB84E0700185476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107F7FCA1BB84E0800185476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107F7FD51BB84E0800185476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107F7FAE1BB84E0700185476 = {
+			isa = PBXGroup;
+			children = (
+				107F7FB91BB84E0700185476 /* Happy Billionth Second */,
+				107F7FD01BB84E0800185476 /* Happy Billionth SecondTests */,
+				107F7FDB1BB84E0800185476 /* Happy Billionth SecondUITests */,
+				107F7FB81BB84E0700185476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107F7FB81BB84E0700185476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107F7FB71BB84E0700185476 /* Happy Billionth Second.app */,
+				107F7FCD1BB84E0800185476 /* Happy Billionth SecondTests.xctest */,
+				107F7FD81BB84E0800185476 /* Happy Billionth SecondUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107F7FB91BB84E0700185476 /* Happy Billionth Second */ = {
+			isa = PBXGroup;
+			children = (
+				107F7FBA1BB84E0700185476 /* AppDelegate.swift */,
+				107F7FBC1BB84E0700185476 /* MasterViewController.swift */,
+				107F7FBE1BB84E0700185476 /* DetailViewController.swift */,
+				107F7FC01BB84E0800185476 /* Main.storyboard */,
+				107F7FC31BB84E0800185476 /* Assets.xcassets */,
+				107F7FC51BB84E0800185476 /* LaunchScreen.storyboard */,
+				107F7FC81BB84E0800185476 /* Info.plist */,
+			);
+			path = "Happy Billionth Second";
+			sourceTree = "<group>";
+		};
+		107F7FD01BB84E0800185476 /* Happy Billionth SecondTests */ = {
+			isa = PBXGroup;
+			children = (
+				107F7FD11BB84E0800185476 /* Happy_Billionth_SecondTests.swift */,
+				107F7FD31BB84E0800185476 /* Info.plist */,
+			);
+			path = "Happy Billionth SecondTests";
+			sourceTree = "<group>";
+		};
+		107F7FDB1BB84E0800185476 /* Happy Billionth SecondUITests */ = {
+			isa = PBXGroup;
+			children = (
+				107F7FDC1BB84E0800185476 /* Happy_Billionth_SecondUITests.swift */,
+				107F7FDE1BB84E0800185476 /* Info.plist */,
+			);
+			path = "Happy Billionth SecondUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107F7FB61BB84E0700185476 /* Happy Billionth Second */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107F7FE11BB84E0800185476 /* Build configuration list for PBXNativeTarget "Happy Billionth Second" */;
+			buildPhases = (
+				107F7FB31BB84E0700185476 /* Sources */,
+				107F7FB41BB84E0700185476 /* Frameworks */,
+				107F7FB51BB84E0700185476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Billionth Second";
+			productName = "Happy Billionth Second";
+			productReference = 107F7FB71BB84E0700185476 /* Happy Billionth Second.app */;
+			productType = "com.apple.product-type.application";
+		};
+		107F7FCC1BB84E0800185476 /* Happy Billionth SecondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107F7FE41BB84E0800185476 /* Build configuration list for PBXNativeTarget "Happy Billionth SecondTests" */;
+			buildPhases = (
+				107F7FC91BB84E0800185476 /* Sources */,
+				107F7FCA1BB84E0800185476 /* Frameworks */,
+				107F7FCB1BB84E0800185476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107F7FCF1BB84E0800185476 /* PBXTargetDependency */,
+			);
+			name = "Happy Billionth SecondTests";
+			productName = "Happy Billionth SecondTests";
+			productReference = 107F7FCD1BB84E0800185476 /* Happy Billionth SecondTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		107F7FD71BB84E0800185476 /* Happy Billionth SecondUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107F7FE71BB84E0800185476 /* Build configuration list for PBXNativeTarget "Happy Billionth SecondUITests" */;
+			buildPhases = (
+				107F7FD41BB84E0800185476 /* Sources */,
+				107F7FD51BB84E0800185476 /* Frameworks */,
+				107F7FD61BB84E0800185476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107F7FDA1BB84E0800185476 /* PBXTargetDependency */,
+			);
+			name = "Happy Billionth SecondUITests";
+			productName = "Happy Billionth SecondUITests";
+			productReference = 107F7FD81BB84E0800185476 /* Happy Billionth SecondUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		107F7FAF1BB84E0700185476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Corey Wade";
+				TargetAttributes = {
+					107F7FB61BB84E0700185476 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JE9SL2E9G9;
+					};
+					107F7FCC1BB84E0800185476 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 107F7FB61BB84E0700185476;
+					};
+					107F7FD71BB84E0800185476 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 107F7FB61BB84E0700185476;
+					};
+				};
+			};
+			buildConfigurationList = 107F7FB21BB84E0700185476 /* Build configuration list for PBXProject "Happy Billionth Second" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 107F7FAE1BB84E0700185476;
+			productRefGroup = 107F7FB81BB84E0700185476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107F7FB61BB84E0700185476 /* Happy Billionth Second */,
+				107F7FCC1BB84E0800185476 /* Happy Billionth SecondTests */,
+				107F7FD71BB84E0800185476 /* Happy Billionth SecondUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107F7FB51BB84E0700185476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107F7FC71BB84E0800185476 /* LaunchScreen.storyboard in Resources */,
+				107F7FC41BB84E0800185476 /* Assets.xcassets in Resources */,
+				107F7FC21BB84E0800185476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107F7FCB1BB84E0800185476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107F7FD61BB84E0800185476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107F7FB31BB84E0700185476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107F7FBF1BB84E0700185476 /* DetailViewController.swift in Sources */,
+				107F7FBD1BB84E0700185476 /* MasterViewController.swift in Sources */,
+				107F7FBB1BB84E0700185476 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107F7FC91BB84E0800185476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107F7FD21BB84E0800185476 /* Happy_Billionth_SecondTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107F7FD41BB84E0800185476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107F7FDD1BB84E0800185476 /* Happy_Billionth_SecondUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107F7FCF1BB84E0800185476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107F7FB61BB84E0700185476 /* Happy Billionth Second */;
+			targetProxy = 107F7FCE1BB84E0800185476 /* PBXContainerItemProxy */;
+		};
+		107F7FDA1BB84E0800185476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107F7FB61BB84E0700185476 /* Happy Billionth Second */;
+			targetProxy = 107F7FD91BB84E0800185476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		107F7FC01BB84E0800185476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107F7FC11BB84E0800185476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		107F7FC51BB84E0800185476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107F7FC61BB84E0800185476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107F7FDF1BB84E0800185476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		107F7FE01BB84E0800185476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		107F7FE21BB84E0800185476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Happy Billionth Second/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WM-3.Happy-Billionth-Second";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		107F7FE31BB84E0800185476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Happy Billionth Second/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WM-3.Happy-Billionth-Second";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		107F7FE51BB84E0800185476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy Billionth SecondTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WM-3.Happy-Billionth-SecondTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Billionth Second.app/Happy Billionth Second";
+			};
+			name = Debug;
+		};
+		107F7FE61BB84E0800185476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy Billionth SecondTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WM-3.Happy-Billionth-SecondTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Billionth Second.app/Happy Billionth Second";
+			};
+			name = Release;
+		};
+		107F7FE81BB84E0800185476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy Billionth SecondUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WM-3.Happy-Billionth-SecondUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy Billionth Second";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		107F7FE91BB84E0800185476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy Billionth SecondUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WM-3.Happy-Billionth-SecondUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy Billionth Second";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107F7FB21BB84E0700185476 /* Build configuration list for PBXProject "Happy Billionth Second" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107F7FDF1BB84E0800185476 /* Debug */,
+				107F7FE01BB84E0800185476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107F7FE11BB84E0800185476 /* Build configuration list for PBXNativeTarget "Happy Billionth Second" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107F7FE21BB84E0800185476 /* Debug */,
+				107F7FE31BB84E0800185476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107F7FE41BB84E0800185476 /* Build configuration list for PBXNativeTarget "Happy Billionth SecondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107F7FE51BB84E0800185476 /* Debug */,
+				107F7FE61BB84E0800185476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107F7FE71BB84E0800185476 /* Build configuration list for PBXNativeTarget "Happy Billionth SecondUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107F7FE81BB84E0800185476 /* Debug */,
+				107F7FE91BB84E0800185476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 107F7FAF1BB84E0700185476 /* Project object */;
+}
