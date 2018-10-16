@@ -1,3 +1,3 @@
 # hbs
 
-This is the ReadMe File.
+The current version is available at github.com/coreyjwade/YourClock
